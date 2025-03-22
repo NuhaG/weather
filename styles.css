@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'popins',sans-sherif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #010314;
+    
+}
+.card{
+    width: 100%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00FF9C, #47c3cc,#651b9d);
+    color: white;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    border-radius: 15px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;   
+    font-size: 18px;
+}
+.search button{
+    border:0;
+    outline:0;
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    /* margin-top: 8px; */
+}
+.main{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.feels-like{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.box{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border: 5px double white;
+    border-radius: 15px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col, .col-1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img, .col-1 img{
+    width: 50px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    margin-top: -6px;
+    font-size: 27px;
+}
+.sunrise, .sunset{
+    margin-top: -6px;
+    font-size: 27px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
